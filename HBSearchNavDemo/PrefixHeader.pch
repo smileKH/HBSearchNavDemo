@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  HBSearchNavDemo
+//
+//  Created by 胡明波 on 2020/11/23.
+//  Copyright © 2020 yanruyu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <Masonry.h>
+#include <objc/objc.h>
+#include <objc/runtime.h>
+#import "UIView+BKView.h"
+
+//#import <YYKit/YYKit.h>
+/**
+系统高度，宽度 bounds
+*/
+#define SCREEN_WIDTH            ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT           ([[UIScreen mainScreen] bounds].size.height)
+//导航栏高度
+#define NAVIBAR_HEIGHT  (kDevice_Is_iPhoneXScreen ? 88 : 64)
+//状态栏高度
+#define STATUSBAR_HEIGHT  (kDevice_Is_iPhoneXScreen ? 44 : 20)
+//是否刘海屏
+#define kDevice_Is_iPhoneXScreen  (SCREEN_HEIGHT == 812.0f || SCREEN_HEIGHT == 896.0f)
+//按钮高度
+#define BUTTON_WIDTH    40
+//headerviewHeight
+#define headViewHeight    SCREEN_WIDTH
+
+//strong weak  self
+#define WEAKSELF typeof(self) __weak weakSelf = self
+#define STRONGSELF typeof(weakSelf) __strong strongSelf = weakSelf
+
+
+#define kMinimumInteritemSpacing  5
+#define kFirstitemleftSpace  30
+
+//获取沙盒Document路径
+#define kDocumentPath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+#define kSearchHistoryCachePath [NSString stringWithFormat:@"%@/searchHistory.archieve", kDocumentPath]
+#endif /* PrefixHeader_pch */

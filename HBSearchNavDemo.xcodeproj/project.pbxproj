@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E3BD93256B528F00671A70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BD92256B528F00671A70 /* AppDelegate.m */; };
+		04E3BD96256B528F00671A70 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BD95256B528F00671A70 /* SceneDelegate.m */; };
+		04E3BD99256B528F00671A70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BD98256B528F00671A70 /* ViewController.m */; };
+		04E3BD9C256B528F00671A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3BD9A256B528F00671A70 /* Main.storyboard */; };
+		04E3BD9E256B529100671A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3BD9D256B529100671A70 /* Assets.xcassets */; };
+		04E3BDA1256B529100671A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3BD9F256B529100671A70 /* LaunchScreen.storyboard */; };
+		04E3BDA4256B529100671A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BDA3256B529100671A70 /* main.m */; };
+		04E3BDAC256B53B700671A70 /* HBSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BDAB256B53B700671A70 /* HBSearchViewController.m */; };
+		04E3BDB0256B5F0200671A70 /* HBSearchHeaderTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BDAF256B5F0200671A70 /* HBSearchHeaderTitleView.m */; };
+		04E3BDB3256B604000671A70 /* UIView+BKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BDB2256B604000671A70 /* UIView+BKView.m */; };
+		04E3BDB6256B618300671A70 /* HBSearchHistoryWordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BDB5256B618300671A70 /* HBSearchHistoryWordCell.m */; };
+		04E3BDB9256B61C700671A70 /* HBSearchHotWordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BDB8256B61C700671A70 /* HBSearchHotWordCell.m */; };
+		04E3BF1D256B6EDD00671A70 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3BF1C256B6EDD00671A70 /* UICollectionViewLeftAlignedLayout.m */; };
+		21CBBE5C686CEA13C6730E1A /* libPods-HBSearchNavDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF9E98CF2D0C1161EF121C9 /* libPods-HBSearchNavDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04E3BD8E256B528F00671A70 /* HBSearchNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBSearchNavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E3BD91256B528F00671A70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E3BD92256B528F00671A70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E3BD94256B528F00671A70 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04E3BD95256B528F00671A70 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04E3BD97256B528F00671A70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E3BD98256B528F00671A70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04E3BD9B256B528F00671A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E3BD9D256B529100671A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E3BDA0256B529100671A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E3BDA2256B529100671A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3BDA3256B529100671A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E3BDAA256B53B700671A70 /* HBSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSearchViewController.h; sourceTree = "<group>"; };
+		04E3BDAB256B53B700671A70 /* HBSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSearchViewController.m; sourceTree = "<group>"; };
+		04E3BDAD256B588500671A70 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04E3BDAE256B5F0200671A70 /* HBSearchHeaderTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSearchHeaderTitleView.h; sourceTree = "<group>"; };
+		04E3BDAF256B5F0200671A70 /* HBSearchHeaderTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSearchHeaderTitleView.m; sourceTree = "<group>"; };
+		04E3BDB1256B604000671A70 /* UIView+BKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BKView.h"; sourceTree = "<group>"; };
+		04E3BDB2256B604000671A70 /* UIView+BKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BKView.m"; sourceTree = "<group>"; };
+		04E3BDB4256B618300671A70 /* HBSearchHistoryWordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSearchHistoryWordCell.h; sourceTree = "<group>"; };
+		04E3BDB5256B618300671A70 /* HBSearchHistoryWordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSearchHistoryWordCell.m; sourceTree = "<group>"; };
+		04E3BDB7256B61C700671A70 /* HBSearchHotWordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBSearchHotWordCell.h; sourceTree = "<group>"; };
+		04E3BDB8256B61C700671A70 /* HBSearchHotWordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBSearchHotWordCell.m; sourceTree = "<group>"; };
+		04E3BF1B256B6EDD00671A70 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		04E3BF1C256B6EDD00671A70 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		1C0158748876626D74BEF2F1 /* Pods-HBSearchNavDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBSearchNavDemo.debug.xcconfig"; path = "Target Support Files/Pods-HBSearchNavDemo/Pods-HBSearchNavDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF9E98CF2D0C1161EF121C9 /* libPods-HBSearchNavDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HBSearchNavDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F566911D568134CB1FD38035 /* Pods-HBSearchNavDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBSearchNavDemo.release.xcconfig"; path = "Target Support Files/Pods-HBSearchNavDemo/Pods-HBSearchNavDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E3BD8B256B528F00671A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CBBE5C686CEA13C6730E1A /* libPods-HBSearchNavDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E3BD85256B528F00671A70 = {
+			isa = PBXGroup;
+			children = (
+				04E3BD90256B528F00671A70 /* HBSearchNavDemo */,
+				04E3BD8F256B528F00671A70 /* Products */,
+				1CB237C09B8A42AA017FA39C /* Pods */,
+				6B1B31FD16EDF610CA534BEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E3BD8F256B528F00671A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E3BD8E256B528F00671A70 /* HBSearchNavDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E3BD90256B528F00671A70 /* HBSearchNavDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04E3BD91256B528F00671A70 /* AppDelegate.h */,
+				04E3BD92256B528F00671A70 /* AppDelegate.m */,
+				04E3BDB1256B604000671A70 /* UIView+BKView.h */,
+				04E3BDB2256B604000671A70 /* UIView+BKView.m */,
+				04E3BD94256B528F00671A70 /* SceneDelegate.h */,
+				04E3BD95256B528F00671A70 /* SceneDelegate.m */,
+				04E3BD97256B528F00671A70 /* ViewController.h */,
+				04E3BD98256B528F00671A70 /* ViewController.m */,
+				04E3BDAA256B53B700671A70 /* HBSearchViewController.h */,
+				04E3BDAB256B53B700671A70 /* HBSearchViewController.m */,
+				04E3BDAE256B5F0200671A70 /* HBSearchHeaderTitleView.h */,
+				04E3BDAF256B5F0200671A70 /* HBSearchHeaderTitleView.m */,
+				04E3BDB4256B618300671A70 /* HBSearchHistoryWordCell.h */,
+				04E3BDB5256B618300671A70 /* HBSearchHistoryWordCell.m */,
+				04E3BDB7256B61C700671A70 /* HBSearchHotWordCell.h */,
+				04E3BDB8256B61C700671A70 /* HBSearchHotWordCell.m */,
+				04E3BF1B256B6EDD00671A70 /* UICollectionViewLeftAlignedLayout.h */,
+				04E3BF1C256B6EDD00671A70 /* UICollectionViewLeftAlignedLayout.m */,
+				04E3BDAD256B588500671A70 /* PrefixHeader.pch */,
+				04E3BD9A256B528F00671A70 /* Main.storyboard */,
+				04E3BD9D256B529100671A70 /* Assets.xcassets */,
+				04E3BD9F256B529100671A70 /* LaunchScreen.storyboard */,
+				04E3BDA2256B529100671A70 /* Info.plist */,
+				04E3BDA3256B529100671A70 /* main.m */,
+			);
+			path = HBSearchNavDemo;
+			sourceTree = "<group>";
+		};
+		1CB237C09B8A42AA017FA39C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C0158748876626D74BEF2F1 /* Pods-HBSearchNavDemo.debug.xcconfig */,
+				F566911D568134CB1FD38035 /* Pods-HBSearchNavDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B1B31FD16EDF610CA534BEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9E98CF2D0C1161EF121C9 /* libPods-HBSearchNavDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E3BD8D256B528F00671A70 /* HBSearchNavDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E3BDA7256B529100671A70 /* Build configuration list for PBXNativeTarget "HBSearchNavDemo" */;
+			buildPhases = (
+				A1AE8D25E729BE19986DDB35 /* [CP] Check Pods Manifest.lock */,
+				04E3BD8A256B528F00671A70 /* Sources */,
+				04E3BD8B256B528F00671A70 /* Frameworks */,
+				04E3BD8C256B528F00671A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBSearchNavDemo;
+			productName = HBSearchNavDemo;
+			productReference = 04E3BD8E256B528F00671A70 /* HBSearchNavDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E3BD86256B528F00671A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = yanruyu;
+				TargetAttributes = {
+					04E3BD8D256B528F00671A70 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 04E3BD89256B528F00671A70 /* Build configuration list for PBXProject "HBSearchNavDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E3BD85256B528F00671A70;
+			productRefGroup = 04E3BD8F256B528F00671A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E3BD8D256B528F00671A70 /* HBSearchNavDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E3BD8C256B528F00671A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3BDA1256B529100671A70 /* LaunchScreen.storyboard in Resources */,
+				04E3BD9E256B529100671A70 /* Assets.xcassets in Resources */,
+				04E3BD9C256B528F00671A70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1AE8D25E729BE19986DDB35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBSearchNavDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E3BD8A256B528F00671A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E3BDB0256B5F0200671A70 /* HBSearchHeaderTitleView.m in Sources */,
+				04E3BDAC256B53B700671A70 /* HBSearchViewController.m in Sources */,
+				04E3BDB6256B618300671A70 /* HBSearchHistoryWordCell.m in Sources */,
+				04E3BDB3256B604000671A70 /* UIView+BKView.m in Sources */,
+				04E3BD99256B528F00671A70 /* ViewController.m in Sources */,
+				04E3BF1D256B6EDD00671A70 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				04E3BD93256B528F00671A70 /* AppDelegate.m in Sources */,
+				04E3BDB9256B61C700671A70 /* HBSearchHotWordCell.m in Sources */,
+				04E3BDA4256B529100671A70 /* main.m in Sources */,
+				04E3BD96256B528F00671A70 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E3BD9A256B528F00671A70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E3BD9B256B528F00671A70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E3BD9F256B529100671A70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E3BDA0256B529100671A70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E3BDA5256B529100671A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E3BDA6256B529100671A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E3BDA8256B529100671A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0158748876626D74BEF2F1 /* Pods-HBSearchNavDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/mac/Documents/学习Demo/HBSearchNavDemo/HBSearchNavDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = HBSearchNavDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanruyu.HBSearchNavDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E3BDA9256B529100671A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F566911D568134CB1FD38035 /* Pods-HBSearchNavDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/mac/Documents/学习Demo/HBSearchNavDemo/HBSearchNavDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = HBSearchNavDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanruyu.HBSearchNavDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E3BD89256B528F00671A70 /* Build configuration list for PBXProject "HBSearchNavDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3BDA5256B529100671A70 /* Debug */,
+				04E3BDA6256B529100671A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E3BDA7256B529100671A70 /* Build configuration list for PBXNativeTarget "HBSearchNavDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3BDA8256B529100671A70 /* Debug */,
+				04E3BDA9256B529100671A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E3BD86256B528F00671A70 /* Project object */;
+}
